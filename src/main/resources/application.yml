@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  fastjson:
+    enabled: true
+    supported-media-types: application/json;charset=UTF-8
+    config:
+      date-format: yyyy-MM-dd HH:mm:ss
+      charset: UTF-8
+      serializer-features:
+        - prettyformat
+        - writemapnullvalue
+        - writenullnumberaszero
+        - writenullstringasempty
+        - writenulllistasempty

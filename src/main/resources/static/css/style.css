@@ -1,0 +1,231 @@
+body, dd, dl, form, ol, p, ul {
+    margin: 0;
+}
+article, aside, blockquote, body, button, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    margin: 0;
+    font-weight: 400;
+}
+ol, ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+body{
+    font-family: PingFangSC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,Arial,sans-serif;
+    color: #444;
+    font-size: 14px;
+    line-height: 1.75!important;
+}
+.mb40 {
+    margin-bottom: 40px!important;
+}
+.mb20 {
+    margin-bottom: 20px!important;
+}
+.txt-ct {
+    text-align: center!important;
+}
+.mt25 {
+    margin-top: 25px!important;
+}
+.txt-rt {
+    text-align: right!important;
+}
+.pr {
+    position: relative!important;
+}
+.info-wrap{
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.info-inner{
+    width: 100%;
+    min-height: 400px;
+    min-width: 1260px;
+    padding: 14px 20px 40px;
+    margin: 0 auto;
+    max-width: 1400px;
+    overflow: hidden;
+}
+.info-wrap .info-inner .info {
+    padding-top: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.info-wrap .info-inner .info .skill-icon {
+    display: block;
+    margin: 0 auto 30px;
+}
+.skill-icon {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    margin: 40px auto;
+    border: 1px solid #ddd;
+    border-radius: 11px;
+    /*background-image: url(../../static/img/icon-skilllogo.3b641e9.svg);*/
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.info-wrap .info-inner .info .skill-name {
+    font-size: 34px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 15px;
+    color: #444;
+    font-weight: 300;
+}
+.info-wrap .info-inner .info .skill-developer {
+    font-size: 18px;
+    color: #585454;
+    min-height: 31px;
+}
+
+.info-wrap .info-inner .info .desc {
+    text-align: left;
+    color: #999;
+    font-size: 16px;
+    line-height: 1.8;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    height: 60px;
+}
+
+
+.main-cont {
+    width: 100%;
+    min-height: 575px;
+}
+.main-cont .cont {
+    width: 100%;
+    min-width: 1260px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main-cont .description[data-v-fd34ad68], .main-cont .jianrong[data-v-fd34ad68], .main-cont .usersays[data-v-fd34ad68] {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.main-cont .description[data-v-fd34ad68] {
+    font-size: 16px;
+    color: #444;
+}
+.main-cont .description[data-v-fd34ad68], .main-cont .jianrong[data-v-fd34ad68], .main-cont .usersays[data-v-fd34ad68] {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.main-cont .description .title[data-v-fd34ad68], .main-cont .jianrong .title[data-v-fd34ad68], .main-cont .usersays .title[data-v-fd34ad68] {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 36px;
+    font-weight: 600;
+}
+.main-cont .usersays .says[data-v-fd34ad68] {
+    padding-left: 240px;
+}
+
+.main-cont .usersays .says li[data-v-fd34ad68] {
+    position: relative;
+    margin-bottom: 40px;
+}
+.main-cont .usersays .says li .tri[data-v-fd34ad68] {
+    position: absolute;
+    top: 28px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 8px 0;
+    border-color: transparent #f9f9f9 transparent transparent;
+}
+.main-cont .usersays .says .sentence[data-v-fd34ad68] {
+    display: inline-block;
+    max-width: 628px;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 60px 0 20px;
+    margin-left: 6px;
+    font-size: 24px;
+    color: #444;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 300;
+    border-radius: 4px;
+}
+
+
+.main-cont .description .title[data-v-fd34ad68] {
+    color: #444;
+    margin-bottom: 20px;
+}
+.main-cont .description .title[data-v-fd34ad68], .main-cont .jianrong .title[data-v-fd34ad68], .main-cont .usersays .title[data-v-fd34ad68] {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 36px;
+    font-weight: 600;
+}
+.main-cont .description p[data-v-fd34ad68] {
+    line-height: 2;
+}
+
+.main-cont .description .g-a[data-v-fd34ad68] {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.db {
+    display: inline-block!important;
+}
+.g-a {
+    color: #3dbfda;
+}
+
+a {
+    color: #2d8cf0;
+    background: 0 0;
+    outline: 0;
+    cursor: pointer;
+    transition: color .2s ease;
+}
+
+.main-cont .jianrong[data-v-fd34ad68] {
+    padding-bottom: 165px;
+}
+.main-cont .jianrong .title[data-v-fd34ad68] {
+    color: #444;
+    margin-bottom: 20px;
+}
+.main-cont .description .title[data-v-fd34ad68], .main-cont .jianrong .title[data-v-fd34ad68], .main-cont .usersays .title[data-v-fd34ad68] {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 36px;
+    font-weight: 600;
+}
+
+.main-cont .description[data-v-fd34ad68], .main-cont .jianrong[data-v-fd34ad68], .main-cont .usersays[data-v-fd34ad68] {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
