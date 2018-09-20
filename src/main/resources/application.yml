@@ -1,4 +1,5 @@
-server:
+
+erver:
   port: 8080
 spring:
   fastjson:
@@ -13,3 +14,14 @@ spring:
         - writenullnumberaszero
         - writenullstringasempty
         - writenulllistasempty
+memcached:
+  socket-addresses:
+    -
+      hostname: 192.168.0.100
+      port: 12000
+    -
+      hostname: 192.168.0.101
+      port: 12000
+  weights: # 分布式权重
+    - 1
+    - 1
